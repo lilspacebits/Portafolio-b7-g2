@@ -1,3 +1,64 @@
-body{
-    background-color: white;
+body {
+background-color: #ffffff;
+}
+
+#presentacion {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    min-height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+/* este es el de presentación */
+
+.custom-shape-divider-bottom-1723688379 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723688379 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 93px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1723688379 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.feature-icon{
+    background-color: #bf9aca;
+    color: white;
+    
+}
+
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+#Proyecto-1 {
+    background-image: url('/miPortafolio/ASSETS/GoogleClon.JPG');
+}
+
+.text-shadow-1 {
+    text-shadow: 1 -1px .8px rgba(0, 0, 0, 1);
+}
+
+#Proyecto-2 {
+    background-image: url('/miPortafolio/ASSETS/DEMOREEL\ SG.png');
 }
