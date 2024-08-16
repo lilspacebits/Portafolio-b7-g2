@@ -43,12 +43,15 @@ background-color: #ffffff;
     
 }
 
+.decoracion {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .proyecto {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
 
 #Proyecto-1 {
